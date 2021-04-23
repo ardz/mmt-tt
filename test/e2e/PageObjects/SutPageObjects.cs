@@ -20,5 +20,10 @@ namespace PageObjects
         {
             return new ProductPage(DriverManager);
         }
+
+        public Basket Basket()
+        {
+            return new Basket(DriverManager);
+        }
     }
 }

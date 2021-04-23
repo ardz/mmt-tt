@@ -12,6 +12,7 @@ namespace GuiTests_e2e.Tests
     // and rewrite the test steps now if the UI changes. It also means that behaviours could be tested underneath
     // the UI depending on how the application has been architected - much better than having to rely on the UI.
 
+    // As a subscribed member I can log in using my credentials so that my account is securely accessible
     public class LoginSuccessAc1 : GuiTestFixture
     {
         [Scenario]
