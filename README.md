@@ -19,7 +19,7 @@ the UI depending on how the application has been architected - much better than 
 * You'll need the relevent .net core SDKs etc on your machine
 * clone and open the sln file in your .net IDE of choice
 * alternatively just execute "dotnet test" from within the "test\e2e\GuiTests_e2e" directory
-* change the appsettings config file with the relevant strings to change the browser being used to execute the tests
+* change the appsettings config file with the relevant strings to change the browser being used to execute the tests, this would be done in a CI/CD pipeline ideally
 
 ## Limitations
 * solution was built on a windows machine, no safari browser support unfortunately
