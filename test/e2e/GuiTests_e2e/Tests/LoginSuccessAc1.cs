@@ -3,8 +3,7 @@ using Xunit;
 
 namespace GuiTests_e2e.Tests
 {
-    // The test documentation says these are user stories but they're not, they're test scenarios?
-    // Also, they're breaking a number of fundamental rules in Gherkin - use of the word "I" for example
+    // The scenarios in the test are breaking some fundamental rules in Gherkin - use of the word "I" for example
     // The way they're written is also anti-pattern - the test steps are now "hard coded" to the UI.
     // If the UI changes the tests steps effectively could become invalid.
 

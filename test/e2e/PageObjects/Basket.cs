@@ -1,6 +1,5 @@
 ﻿using System.Linq;
 using Core_e2e;
-using FluentAssertions.Execution;
 using OpenQA.Selenium;
 
 namespace PageObjects
