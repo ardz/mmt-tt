@@ -25,6 +25,15 @@ namespace GuiTests_e2e
             SauceDemoPages = new SutPageObjects(DriverManager);
         }
 
+        protected void Login()
+        {
+            SauceDemoPages.LoginPage().NavigateTo();
+            SauceDemoPages.LoginPage()
+                .TypeUsername("standard_user")
+                .TypePassword("secret_sauce")
+                .ClickLogin();
+        }
+
         public void Dispose()
         {
             DriverManager.Driver.Quit();
