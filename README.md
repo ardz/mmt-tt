@@ -9,7 +9,7 @@ The solution contains a .NET core solution with 3 projects inside:
 ## Remarks/Observations on the tech test itself
 
 * The scenarios in the test are breaking some fundamental rules in Gherkin - use of the word "I" for example?
-* The way they're written is also anti-pattern - the test steps are now "hard coded" to the UI?
+* The way they're written is also anti-pattern - the test steps are now hard coded to the UI?
 * If the UI changes the tests steps effectively could become invalid?
 * It's best to write a user story which describes behavior *not* UI elements - you'd have to go back
 and rewrite the test steps now if the UI changes. It also means that behaviours could be tested underneath
