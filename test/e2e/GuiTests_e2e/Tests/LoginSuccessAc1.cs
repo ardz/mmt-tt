@@ -28,7 +28,7 @@ namespace GuiTests_e2e.Tests
             $"When I click “Log in” with {username} and {password}"
                 .x(() => { SauceDemoPages.LoginPage().Login(username, password); });
 
-            "Then an error will be thrown below the form stating “Epic sadface: Username is required”"
+            $"Then an error will be thrown below the form stating {expectedError}"
                 .x(() =>
                 {
                     Assert.Equal(expectedError, SauceDemoPages.LoginPage().ReturnPageError());
